@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa194c2d-3bdf-4c91-b5dc-266c4581a52f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/img/plate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/js/Cart/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/js/Catalog/catalog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/js/Homepage/directory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/js/Homepage/homepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/js/Homepage/offer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/js/Product/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/js/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/layouts/HomepageLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/layouts/MainLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/style/Cart/cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/style/Catalog/catalog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/style/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/elements/style/homepage/offer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/firebase/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/firebase/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app" />
+  </component>
+  <component name="ProjectId" id="1kYCozXq3vX39XpnMdsXgxpnQNE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/elements/img" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yuliy\Desktop\University materials\web\lab6\app\src\elements\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yuliy\Desktop\University materials\web\lab6\app\src\elements\js\Catalog" />
+      <recent name="C:\Users\yuliy\Desktop\University materials\web\lab6\app\src\elements\style\homepage" />
+      <recent name="C:\Users\yuliy\Desktop\University materials\web\lab6\app\src\elements\js\homepage" />
+      <recent name="C:\Users\yuliy\Desktop\University materials\web\lab6\app\src\elements\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="app" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="3001">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Node.js/Chrome.app" />
+      <item itemvalue="npm.start" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa194c2d-3bdf-4c91-b5dc-266c4581a52f" name="Default Changelist" comment="" />
+      <created>1605868319458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605868319458</updated>
+      <workItem from="1605868321292" duration="9042000" />
+      <workItem from="1606140236180" duration="10127000" />
+      <workItem from="1606164590628" duration="3445000" />
+      <workItem from="1606214277543" duration="5672000" />
+      <workItem from="1606670782275" duration="5979000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605868616295">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1605868616295" />
+    <state x="414" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606160871197">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="414" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1606160871197" />
+    <state x="372" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606161675963">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="372" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606161675963" />
+    <state width="1259" height="171" key="GridCell.Tab.0.bottom" timestamp="1606679291840">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="171" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606679291840" />
+    <state width="1259" height="171" key="GridCell.Tab.0.center" timestamp="1606679291839">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="171" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606679291839" />
+    <state width="1259" height="171" key="GridCell.Tab.0.left" timestamp="1606679291839">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="171" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606679291839" />
+    <state width="1259" height="171" key="GridCell.Tab.0.right" timestamp="1606679291839">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="171" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606679291839" />
+    <state x="390" y="43" key="RollbackChangesDialog" timestamp="1606161041043">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="390" y="43" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606161041043" />
+    <state x="608" y="154" key="run.anything.popup" timestamp="1605881011203">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="608" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1605881011203" />
+    <state x="608" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1606217545789">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="608" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606217545789" />
+  </component>
+</project>
