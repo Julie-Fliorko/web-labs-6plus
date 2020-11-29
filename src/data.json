@@ -1,0 +1,12 @@
+{
+  "products": [
+    {"id":1,
+      "title": "wonderful bowl",
+      "image": "/elements/img/plate.jpg",
+      "description": "some useful information",
+      "price": 1,
+      "available colours": ["White", "Black"]
+    }
+
+  ]
+}

@@ -1,0 +1,13 @@
+.items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card{
+  img{
+    width: 500px;
+  }
+  border-color: black;
+  border-width: 3px;
+}
