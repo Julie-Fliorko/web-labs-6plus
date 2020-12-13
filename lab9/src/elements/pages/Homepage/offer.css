@@ -1,0 +1,27 @@
+.offer{
+    margin-top: 50px;
+    padding: 10px;
+
+}
+
+.offer_img{
+    margin-left: -500px;
+    width: 500px;
+}
+
+.card_text{
+    background-color: #e3e5e6;
+    margin-left: 605px;
+    width: 500px;
+    height: 325px;
+}
+
+.header{
+    padding: 20px 10px;
+    margin-top: -330px;
+    color: #702223;
+}
+
+.offer_text{
+    color: #702223;
+}

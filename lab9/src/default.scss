@@ -1,0 +1,14 @@
+html,
+body{
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  -webkit-transition: all.5s ease-in-out;
+  -moz-transition: all.5s ease-in-out;
+  transition: all.5s ease-in-out;
+}
