@@ -1,0 +1,38 @@
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    img {
+        width: 500px;
+    }
+    border-color: black;
+    border-width: 3px;
+}
+
+.go_back_btn {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    img {
+        width: 25px;
+    }
+    .go_back_to_catalog {
+        color: black;
+    }
+}
+
+.cart_list {
+    background-color: #f0f0f0;
+    width: 1000px;
+    margin-left: 150px;
+    margin-top: 70px
+}
+
+.text {
+    display: flex;
+    justify-content: flex-start;
+    /*TODO: move to the left*/
+}
