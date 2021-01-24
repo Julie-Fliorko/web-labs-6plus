@@ -1,31 +1,31 @@
-import firebase from './firebase';
+import firebase from './config'
 
-const db = firebase.ref('products');
+const db = firebase.ref("/products");
 
 const getAll = () => {
-    return db;
+ return db;
 };
 
 const create = (data) => {
-    return db.push(data);
+ return db.push(data);
 };
 
 const update = (key, data) => {
-    return db.child(key).update(data);
+ return db.child(key).update(data);
 };
 
 const remove = (key) => {
-    return db.child(key).remove();
+ return db.child(key).remove();
 };
 
 const removeAll = () => {
-    return db.remove();
+ return db.remove();
 };
 
 export default {
-    getAll,
-    create,
-    update,
-    remove,
-    removeAll,
+ getAll,
+ create,
+ update,
+ remove,
+ removeAll,
 };

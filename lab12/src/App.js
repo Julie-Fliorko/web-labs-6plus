@@ -1,59 +1,31 @@
-//import logo from './logo.svg';
-import React, {Component} from "react";
-import {Switch, Route } from "react-router-dom";
-import { auth } from './firebase/utils';
+import React, {Component} from 'react';
+import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 //layouts
-import MainLayout from './elements/layouts/MainLayout';
-import HomepageLayout from "./elements/layouts/HomepageLayout";
-
-//elements
-import Homepage from "./elements/pages/Homepage/homepage";
-import Registration from './elements/pages/Authentication/registration'
-import './default.scss';
-import './App.css';
-import Cart from "./elements/pages/Cart/cart";
-import Catalog from "./elements/pages/Catalog/catalog";
-import Login from "./elements/pages/Authentication/LogIn/LogIn";
-
-const initialState ={
-    currentUser: null
-};
+import MainLayout from './layouts/MainLayout'
+// pages
+import Homepage from './pages/homepage/homepage';
+import Catalog from './pages/catalog/catalog';
+import Cart from './pages/cart/cart';
+import Success from './pages/cart/order/success'
 
 class App extends Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            ...initialState
-        }
-    }
-    authListener = null;
-    componentDidMount(){
-        this.authListener = auth.onAuthStateChanged(userAuth => {
-            if (userAuth) return;
-            this.setState({
-                currentUser: userAuth
-            });
-        });
-    }
-    componentWillUnmount(){
-        this.authListener()
-    }
-    render(){    
-        return (
-        <div ><div className = "App" >
-            <Switch >
-                <Route exact path = "/"
-                    render = {
-                            () => ( <HomepageLayout ><Homepage /></HomepageLayout>)}/>
-                <Route path = "/catalog"
-                    render = {
-                        () => ( <MainLayout ><Catalog /></MainLayout>)} />
-                <Route path = "/cart" render = {() => ( <MainLayout ><Cart /></MainLayout>)} />
-                <Route path = "/account/register" render={() => (<Registration/>)}></Route>
-                <Route path = "/account/login" render={() => (<Login/>)}></Route>
-            </Switch> 
-        </div> </div>);}
 
-    }
-    export default App;
+  render(){
+    return (
+    <div className="App">
+        <BrowserRouter>
+            <Switch>
+                <Route exact path="/" render={() => (<MainLayout><Homepage/></MainLayout>)}/>
+                <Route path="/catalog"  render={() => (<MainLayout><Catalog/></MainLayout>)}/>
+                <Route path="/cart" render ={() => (<MainLayout><Cart/></MainLayout>)}/>
+                <Route path="/success"><Success/></Route>
+           </Switch>
+        </BrowserRouter>
+    </div>
+  );}
+ 
+}
+
+export default App;
